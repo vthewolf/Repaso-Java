@@ -11,6 +11,7 @@ public class TraductorMorse {
         System.out.println("***** TRADUCTOR MORSE *****");
         System.out.println("***************************");
         System.out.print("Introduce una palabra para traducirla: ");
+        System.out.println("");
         palabra = input.next().toLowerCase();
 
         for (i = 0; i < palabra.length(); i++) {
