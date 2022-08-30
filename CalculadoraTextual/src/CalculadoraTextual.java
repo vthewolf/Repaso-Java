@@ -162,8 +162,6 @@ public class CalculadoraTextual {
                     System.out.println("Número incorrecto. Introduzca el número de una opción de la lista.");
                     break;
             }
-
         } while (option != 0);
-
     }
 }
