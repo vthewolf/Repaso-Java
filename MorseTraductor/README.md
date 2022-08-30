@@ -1,18 +1,19 @@
-## Getting Started
+Realizar un programa que reciba una palabra por parte del usuario y lo traduzca a su codificación Morse.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+a.  .-          h ....         o ---          v ...-
+b -...          i ..           p .--.         w .--
+c -.-.          j .---         q --.-         x -..-
+d -..           k -.-          r .-.          y -.--
+e .             l .-..         s ...          z --..
+f ..-.          m --           t -
+g --.           n -.           u ..-
 
-## Folder Structure
+Si el usuario escribe hola la codificación sería:
 
-The workspace contains two folders by default, where:
+.... --- .-.. .-
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+NOTA: Cada representación de la letra en morse debe estar separada por un espacio en blanco.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+La palabra puede ser tan larga como se quiera
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+No se admiten palabras que contengan una ñ, una ç, un número, etc
